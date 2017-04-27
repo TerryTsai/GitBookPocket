@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/search_query"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="Search"
+          app:showAsAction="always"
+          app:actionViewClass="android.support.v7.widget.SearchView" />
+
+    <item android:title="Sort">
+        <menu>
+            <item android:title="Default"/>
+            <item android:title="Stars"/>
+            <item android:title="Updated"/>
+        </menu>
+    </item>
+
+    <item android:title="Type">
+        <menu>
+            <item android:title="Books"/>
+            <item android:title="Authors"/>
+        </menu>
+    </item>
+
+    <item android:title="Theme">
+        <menu>
+            <item android:title="Dark"/>
+            <item android:title="Light"/>
+            <item android:title="Ido"/>
+        </menu>
+    </item>
+
+</menu>

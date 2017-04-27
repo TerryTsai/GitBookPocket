@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:gitbook="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:id="@+id/download_group"
+            android:title="@string/download"
+            android:icon="@drawable/ic_file_download"
+            gitbook:showAsAction="ifRoom">
+        <menu>
+            <item
+                    android:id="@+id/download_epub"
+                    android:title="@string/epub"/>
+            <item
+                    android:id="@+id/download_mobi"
+                    android:title="@string/mobi"/>
+            <item
+                    android:id="@+id/download_pdf"
+                    android:title="@string/pdf"/>
+        </menu>
+    </item>
+
+</menu>

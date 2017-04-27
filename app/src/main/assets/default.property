@@ -1,0 +1,8 @@
+# Template for assets/gitbook.property
+
+# GitBook Config
+clientId=*****
+clientSecret=*****
+redirectUrl=gitbook.pocket
+responseType=code
+grantType=authorization_code

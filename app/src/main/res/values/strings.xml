@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GitBook Pocket</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="icon_github">\uf092</string>
+    <string name="icon_user">\uf007</string>
+    <string name="icon_globe">\uf0ac</string>
+    <string name="icon_calendar">\uf073</string>
+    <string name="icon_link">\uf0c1</string>
+    <string name="search_hint">Search…</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="epub">ePUB</string>
+    <string name="mobi">Mobi</string>
+    <string name="pdf">PDF</string>
+    <string name="download">Download</string>
+    <string name="login_get_started">Get Started</string>
+    <string-array name="themes">
+        <item>Dark</item>
+        <item>Light</item>
+        <item>Ido</item>
+    </string-array>
+</resources>

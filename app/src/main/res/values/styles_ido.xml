@@ -1,0 +1,29 @@
+<resources>
+    <color name="ido_primary">#3F51B5</color>
+    <color name="id_primary_dark">#303F9F</color>
+    <color name="ido_primary_light">#C5CAE9</color>
+    <color name="ido_accent">#FF5722</color>
+    <color name="ido_primary_text">#212121</color>
+    <color name="ido_secondary_text">#757575</color>
+    <color name="ido_icons">#FFFFFF</color>
+    <color name="ido_divider">#BDBDBD</color>
+
+    <style name="GitBookPocketIdo" parent="Theme.AppCompat.Light">
+        <item name="colorPrimaryDark">@color/id_primary_dark</item>
+        <item name="colorPrimary">@color/ido_primary</item>
+        <item name="colorAccent">@color/ido_accent</item>
+        <item name="icon">@color/ido_icons</item>
+        <item name="dividerHorizontal">@color/ido_divider</item>
+        <item name="dividerVertical">@color/ido_divider</item>
+        <item name="actionBarStyle">@style/ActionBarIdo</item>
+    </style>
+
+    <style name="ActionBarIdo" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="titleTextStyle">@style/TitleTextStyleIdo</item>
+    </style>
+
+    <style name="TitleTextStyleIdo" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/ido_icons</item>
+    </style>
+
+</resources>
